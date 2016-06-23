@@ -39,7 +39,7 @@ angular.module('taxigoDriverApp')
                      center: new L.LatLng(21.029771, 105.801811)
                      });*/
                     //latitude":19.4360812,"longitude":-99.074097
-
+                    //gMaps.map = L.map('map', {doubleClickZoom: false}).locate({setView: true, maxZoom: 16});
                     gMaps.map = L.map('map').setView([19.4360812, -99.074097], 13);
 
                     /*L.tileLayer('http://{s}.tiles.mapbox.com/v3/taipham.i6k2o57c/{z}/{x}/{y}.png',
@@ -218,6 +218,7 @@ angular.module('taxigoDriverApp')
                 },
                 direcCenter: function () {
                     var me = this;
+                    //mymap.locate({setView: true, maxZoom: 15});
                     me.map.panTo(me.currentPoint.getLatLng());
                 },
                 getDirectionByGeoCode: function (start, end, cb) {
