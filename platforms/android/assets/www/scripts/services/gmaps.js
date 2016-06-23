@@ -38,15 +38,16 @@ angular.module('taxigoDriverApp')
                      zoom: 17,
                      center: new L.LatLng(21.029771, 105.801811)
                      });*/
+                    //latitude":19.4360812,"longitude":-99.074097
 
-                    gMaps.map = L.map('map').setView([21.029771, 105.801811], 17);
+                    gMaps.map = L.map('map').setView([19.4360812, -99.074097], 13);
 
-                    L.tileLayer('http://{s}.tiles.mapbox.com/v3/taipham.i6k2o57c/{z}/{x}/{y}.png',
+                    /*L.tileLayer('http://{s}.tiles.mapbox.com/v3/taipham.i6k2o57c/{z}/{x}/{y}.png',
                         { maxZoom: 18  }).addTo(gMaps.map);
-                    /*
+                    */
                      L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                      { maxZoom: 18  }).addTo(gMaps.map);
-                     */
+                     
 
                     gMaps.startPointMarker = L.marker();
                     gMaps.endPointMarker = L.marker();
