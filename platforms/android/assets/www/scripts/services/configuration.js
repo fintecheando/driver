@@ -5,7 +5,7 @@ angular.module('taxigoDriverApp')
 
         var config = {
             deviceId: (window.device) ? device.uuid : '9f9f9f99999',
-            name: 'Taxi Go',
+            name: 'TXMX',
             apiHost: 'http://txmx.bitnamiapp.com:6868', // taxigo.vn:997
             mediaHost: 'http://txmx.bitnamiapp.com:6868',
             isLogin: false
