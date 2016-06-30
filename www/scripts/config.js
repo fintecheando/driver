@@ -5,7 +5,7 @@
  */
 
 (function (exports) {
-    var remoteHost = 'http://itaxi.vn:9989'; //'http://localhost:6789';
+    var remoteHost = 'http://txmx.bitnamiapp.com:6868';     
 
     var isMobile = {
         Android: function() {

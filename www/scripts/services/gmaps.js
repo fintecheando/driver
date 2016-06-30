@@ -195,7 +195,7 @@ angular.module('taxigoDriverApp')
                     google.maps.event.addListener(me.map, 'click', function (evt) { // Listen Evt click on Maps
                         me.directionsService = new google.maps.DirectionsService();
 
-                        if (window.confirm('Bạn muốn chọn địa điểm này ?')) {
+                        if (window.confirm('¿Usted quiere elegir esta ubicación?')) {
 
                             var request = {
                                 origin: me.currentPointInputLocation, //me.LatLng, // Start Position
